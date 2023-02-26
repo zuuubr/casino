@@ -2,7 +2,7 @@ from random import choice
 
 
 class GameBlackJack:
-    def __init__(self, deposit):
+    def __init__(self, deposit=10):
         self.deposit = deposit
 
         self.diller_cards = []

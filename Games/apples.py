@@ -2,7 +2,7 @@ from random import choice
 
 
 class GameApple:
-    def __init__(self, deposit=0):
+    def __init__(self, deposit=10):
         self.deposit = deposit
         self.level = 0
         self.map = None

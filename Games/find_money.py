@@ -2,7 +2,7 @@ from random import choice
 
 
 class GameFindMoney:
-    def __init__(self, deposit=0):
+    def __init__(self, deposit=10):
         self.deposit = deposit
         self.map = None
         self.show_map = None
